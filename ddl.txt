@@ -1,0 +1,11 @@
+CREATE TABLE `user_info` (
+  `id` int(11) NOT NULL,
+  `first_name` varchar(45) DEFAULT NULL,
+  `last_name` varchar(45) DEFAULT NULL,
+  `email` varchar(45) DEFAULT NULL,
+  `gender` varchar(45) DEFAULT NULL,
+  `course` varchar(45) DEFAULT NULL,
+  `description` tinytext NOT NULL,
+  `user_infocol` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
