@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Student Form</title>
+    <title>Registration form</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -79,7 +79,7 @@
                 <div class="row padding">
                     <div class="col-md-12 ">
                         <div class="form-group">
-                            <label for="form_name">Enter course code & course description </label>
+                            <label for="form_name">Enter course code & course description from below</label>
                             <input id="form_name" type="text" name="course" class="form-control"
 				placeholder="Please enter your course code"
                                 required="required" data-error="Course code is required.">
@@ -109,7 +109,7 @@
             <hr class="my-4">
              <div class="containers padding text-center">
                             <div class="col-md-12">
-                                  <a href="fetch.php" class="btn btn-info btn-send">View Data</a>
+                                  <a href="fetch.php" class="btn btn-info btn-send">Show</a>
                     
                     </div>
                 </div>
