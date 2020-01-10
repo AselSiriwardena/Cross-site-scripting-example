@@ -1,22 +1,28 @@
 
+import java.util.Scanner;
 
-public class BufferOverflow
-{
-    public static void main(String[] args)
-    {
-        int imprntData =1;
-        int[]  _buffer = new int[10];
+public class BufferOverflow {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-        for (int j =0; j < 15; j++)
-            _buffer[j] = 7;
+        System.out.print("Enter a string : ");
 
-        System.out.println("after_buffer_overrun ");
-        System.out.println("Important_data  = "+imprntData);
+        String str = sc.nextLine();
+
+        str = str.replaceAll(" ", "");
+
+        char[] chr = str.toCharArray();
+
+        System.out.print("Request a characters between 0 and " + str.length() + " : ");
+
+        int point = sc.nextInt();
+
+        System.out.print("Characters you requested : ");
+
+        for (int i = 0 ; i < point ; i++){
+            System.out.print(chr[i]);
+        }
+
+
     }
 }
-
-/*
-    In the above Code buffer has 10 elements but loop attempts to write 15 elements,
-    which can result in a buffer overflow,
-    In this code results in an ArrayIndexOutOfBoundsException.
-*/
